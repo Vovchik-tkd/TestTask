@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.min.css">
     <title>TestTask</title>
 </head>
 <body>
     <form>
         <div class="header">
             <label class="phone">
-                <input type="phone" name="phone" class="phone__input" placeholder="Ваш номер..." pattern="^((8|\+375)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$"/>
+                <input type="phone" name="phone" class="phone__input" placeholder="Ваш номер..." pattern="^((8|\+375)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required/>
             </label>
             <button type ="submit" class="submit__btn">
                 <p>Заказать</p>
             </button>
         </div>
     </form>
+    <script src="js/script.js"></script>
 </body>
 </html>
