@@ -7,13 +7,15 @@
     <title>TestTask</title>
 </head>
 <body>
-    <div class="header">
-        <label class="phone">
-            <input type="phone" name="phone" class="phone__input" placeholder="Ваш номер..."/>
-        </label>
-        <button class="submit__btn">
-            <p>Заказать</p>
-        </button>
-    </div>
+    <form>
+        <div class="header">
+            <label class="phone">
+                <input type="phone" name="phone" class="phone__input" placeholder="Ваш номер..." pattern="^((8|\+375)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$"/>
+            </label>
+            <button type ="submit" class="submit__btn">
+                <p>Заказать</p>
+            </button>
+        </div>
+    </form>
 </body>
 </html>
